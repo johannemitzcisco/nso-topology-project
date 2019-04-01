@@ -1,0 +1,290 @@
+<config xmlns="http://tail-f.com/ns/config/1.0">
+  <network xmlns="http://example.com/network-policy-base">
+  <network-service>
+    <name>Test</name>
+    <topology xmlns="http://example.com/topology-policy-base">
+      <name>core-backbone</name>
+      <policies>
+        <cdp xmlns="http://example.com/device-policy-base">
+          <policy-name>cdp-across-devices</policy-name>
+        </cdp>
+        <callhome xmlns="http://example.com/device-policy-base">
+          <policy-name>callhome-standard</policy-name>
+        </callhome>
+        <telnet xmlns="http://example.com/device-policy-base">
+          <policy-name>telnet-standard</policy-name>
+        </telnet>
+        <line xmlns="http://example.com/device-policy-base">
+          <policy-name>line-standard</policy-name>
+        </line>
+        <lldp xmlns="http://example.com/device-policy-base">
+          <policy-name>lldp-standard</policy-name>
+        </lldp>
+        <ospf xmlns="http://example.com/device-policy-base">
+          <policy-name>backbone-ospf</policy-name>
+        </ospf>
+        <qos xmlns="http://example.com/qos-policy">
+          <policy-name>backbone-qos</policy-name>
+          <class-map>
+            <name>AF21-IN</name>
+            <match>
+              <match-type>mpls</match-type>
+              <topmost>2</topmost>
+            </match>
+          </class-map>
+          <class-map>
+            <name>AF21-OUT</name>
+            <match>
+              <match-type>qos-group</match-type>
+              <qos-group>2</qos-group>
+            </match>
+          </class-map>
+          <class-map>
+            <name>AF31-IN</name>
+            <match>
+              <match-type>mpls</match-type>
+              <topmost>3</topmost>
+            </match>
+          </class-map>
+          <class-map>
+            <name>AF31-OUT</name>
+            <match>
+              <match-type>qos-group</match-type>
+              <qos-group>3</qos-group>
+            </match>
+          </class-map>
+          <class-map>
+            <name>Network-Control</name>
+            <match>
+              <match-type>mpls</match-type>
+              <topmost>6</topmost>
+              <topmost>7</topmost>
+            </match>
+          </class-map>
+          <class-map>
+            <name>Network-Control-OUT</name>
+            <match>
+              <match-type>qos-group</match-type>
+              <qos-group>4</qos-group>
+            </match>
+          </class-map>
+          <class-map>
+            <name>class-default</name>
+          </class-map>
+          <policy-map>
+            <name>VISA-QOS-INPUT</name>
+            <direction>input</direction>
+            <class>
+              <class-ref-name>AF21-IN</class-ref-name>
+              <class-type>reference</class-type>
+              <qos-group>2</qos-group>
+            </class>
+            <class>
+              <class-ref-name>AF31-IN</class-ref-name>
+              <class-type>reference</class-type>
+              <qos-group>1</qos-group>
+            </class>
+            <class>
+              <class-ref-name>Network-Control</class-ref-name>
+              <class-type>reference</class-type>
+              <qos-group>4</qos-group>
+            </class>
+            <class>
+              <class-ref-name>class-default</class-ref-name>
+              <class-type>default</class-type>
+              <qos-group>3</qos-group>
+            </class>
+          </policy-map>
+          <policy-map>
+            <name>VISA-QOS-OUT</name>
+            <direction>output</direction>
+            <class>
+              <class-ref-name>AF21-OUT</class-ref-name>
+              <class-type>reference</class-type>
+              <bandwidth-percent>20</bandwidth-percent>
+            </class>
+            <class>
+              <class-ref-name>AF31-OUT</class-ref-name>
+              <class-type>reference</class-type>
+              <bandwidth-percent>60</bandwidth-percent>
+            </class>
+            <class>
+              <class-ref-name>Network-Control-OUT</class-ref-name>
+              <class-type>reference</class-type>
+              <police-rate>
+                <percent-rate>5</percent-rate>
+              </police-rate>
+              <priority-level>1</priority-level>
+            </class>
+            <class>
+              <class-ref-name>class-default</class-ref-name>
+            </class>
+          </policy-map>
+        </qos>
+      </policies>
+      <endpoint>
+        <topology-name>p1.fra</topology-name>
+        <policies>
+          <hostname xmlns="http://example.com/device-policy-base">
+            <policy-name>corporate-hostname</policy-name>
+            <hostname>p1.fra</hostname>
+          </hostname>
+          <loopback xmlns="http://example.com/device-policy-base">
+            <policy-name>loopback-standard</policy-name>
+            <interface-number>0</interface-number>
+            <ip-address>1.0.2.6</ip-address>
+            <prefix-sid>16026</prefix-sid>
+          </loopback>
+          <static-route xmlns="http://example.com/device-policy-base">
+            <policy-name>static-route-standard</policy-name>
+            <network>0.0.0.0/0</network>
+            <ip-address>172.19.104.1</ip-address>
+          </static-route>
+          <model xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>ASR9K</policy-name>
+          </model>
+          <role xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>provider-core-router</policy-name>
+          </role>
+        </policies>
+      </endpoint>
+      <endpoint>
+        <topology-name>p2.fra</topology-name>
+        <policies>
+          <hostname xmlns="http://example.com/device-policy-base">
+            <policy-name>corporate-hostname</policy-name>
+            <hostname>p2.fra</hostname>
+          </hostname>
+          <loopback xmlns="http://example.com/device-policy-base">
+            <policy-name>loopback-standard</policy-name>
+            <interface-number>0</interface-number>
+            <ip-address>1.1.2.6</ip-address>
+            <prefix-sid>16126</prefix-sid>
+          </loopback>
+          <static-route xmlns="http://example.com/device-policy-base">
+            <policy-name>static-route-standard</policy-name>
+            <network>0.0.0.0/0</network>
+            <ip-address>172.19.104.1</ip-address>
+          </static-route>
+          <model xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>ASR9K</policy-name>
+          </model>
+          <role xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>provider-core-router</policy-name>
+          </role>
+        </policies>
+      </endpoint>
+      <endpoint>
+        <topology-name>p1.lon</topology-name>
+        <policies>
+          <hostname xmlns="http://example.com/device-policy-base">
+            <policy-name>corporate-hostname</policy-name>
+            <hostname>p1.lon</hostname>
+          </hostname>
+          <loopback xmlns="http://example.com/device-policy-base">
+            <policy-name>loopback-standard</policy-name>
+            <interface-number>0</interface-number>
+            <ip-address>1.0.2.5</ip-address>
+            <prefix-sid>16025</prefix-sid>
+          </loopback>
+          <static-route xmlns="http://example.com/device-policy-base">
+            <policy-name>static-route-standard</policy-name>
+            <network>0.0.0.0/0</network>
+            <ip-address>172.19.104.1</ip-address>
+          </static-route>
+          <model xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>ASR9K</policy-name>
+          </model>
+          <role xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>provider-core-router</policy-name>
+          </role>
+        </policies>
+      </endpoint>
+      <endpoint>
+        <topology-name>p2.lon</topology-name>
+        <policies>
+          <hostname xmlns="http://example.com/device-policy-base">
+            <policy-name>corporate-hostname</policy-name>
+            <hostname>p2.lon</hostname>
+          </hostname>
+          <loopback xmlns="http://example.com/device-policy-base">
+            <policy-name>loopback-standard</policy-name>
+            <interface-number>0</interface-number>
+            <ip-address>1.1.2.5</ip-address>
+            <prefix-sid>16125</prefix-sid>
+          </loopback>
+          <static-route xmlns="http://example.com/device-policy-base">
+            <policy-name>static-route-standard</policy-name>
+            <network>0.0.0.0/0</network>
+            <ip-address>172.19.104.1</ip-address>
+          </static-route>
+          <model xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>ASR9K</policy-name>
+          </model>
+          <role xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>provider-core-router</policy-name>
+          </role>
+        </policies>
+      </endpoint>
+      <connection>
+        <connection-name>lon.p1-to-fra.p1</connection-name>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>A</name>
+          <device>p1.lon</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/0</interface-name>
+            <ip-address>10.0.1.33</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>B</name>
+          <device>p1.fra</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/0</interface-name>
+            <ip-address>10.0.1.34</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <type xmlns="http://example.com/connection-policy-base">
+          <core-core>
+            <policy-name>core-to-core</policy-name>
+          </core-core>
+        </type>
+        <cost xmlns="http://example.com/connection-policy-base">638</cost>
+      </connection>
+      <connection>
+        <connection-name>lon.p2-to-fra.p2</connection-name>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>A</name>
+          <device>p2.lon</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/0</interface-name>
+            <ip-address>10.1.1.33</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>B</name>
+          <device>p2.fra</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/0</interface-name>
+            <ip-address>10.1.1.34</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <type xmlns="http://example.com/connection-policy-base">
+          <core-core>
+            <policy-name>core-to-core</policy-name>
+          </core-core>
+        </type>
+        <cost xmlns="http://example.com/connection-policy-base">638</cost>
+      </connection>
+    </topology>
+  </network-service>
+  </network>
+</config>

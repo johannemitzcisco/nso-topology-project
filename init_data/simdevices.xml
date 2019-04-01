@@ -1,0 +1,22 @@
+<devices xmlns="http://tail-f.com/ns/ncs">
+   <device>
+     <name>1300fed-gti-cr-01</name>
+     <address>127.0.0.1</address>
+     <port>10022</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmqYTJG4okTJ9e2ajCLJe713Q4YCOhv7bJqYotFXyablOEDssVgecgb78jO3yGKSoZN9n6Svny56Y+mOtcGeIyq9mbMvJlW056Q+VJ3Jm+swPj7UerMqe7M2rT1XPHhDh+Tj70aFOnWMltjARLEDblS52fLEz/ZH5jlnCf1vUAwvXvjkwR+1I1wNQXhTidfhZNJKV3OKFiDWgxLA/wId5WmHSlC5U3KJ5WHMcz7x/7CUIOLXWy7Gp8mWOABU67GCfIm6fdV94NBAowzFYy/rbrD2KS2AskOrRW+cvxXaHluUfil4MCG72JNB92IlS45Z3qLCLo1rTi5iygZg8FDdNl jnemitz@JNEMITZ-M-60Z9</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:cisco-ios-xr-id="http://tail-f.com/ned/cisco-ios-xr-id">cisco-ios-xr-id:cisco-ios-xr</ned-id>
+       </cli>
+     </device-type>
+   </device>
+</devices>

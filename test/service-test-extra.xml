@@ -1,0 +1,624 @@
+<config xmlns="http://tail-f.com/ns/config/1.0">
+  <network xmlns="http://example.com/network-policy-base">
+  <network-service>
+    <name>Test</name>
+    <topology xmlns="http://example.com/topology-policy-base">
+      <name>core-backbone</name>
+      <endpoint>
+        <topology-name>p1.sin</topology-name>
+        <policies>
+          <hostname xmlns="http://example.com/device-policy-base">
+            <policy-name>corporate-hostname</policy-name>
+            <hostname>p1.sin</hostname>
+          </hostname>
+          <loopback xmlns="http://example.com/device-policy-base">
+            <policy-name>loopback-standard</policy-name>
+            <interface-number>0</interface-number>
+            <ip-address>1.0.2.2</ip-address>
+            <prefix-sid>16022</prefix-sid>
+          </loopback>
+          <static-route xmlns="http://example.com/device-policy-base">
+            <policy-name>static-route-standard</policy-name>
+            <network>0.0.0.0/0</network>
+            <ip-address>172.19.104.1</ip-address>
+          </static-route>
+          <model xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>ASR9K</policy-name>
+          </model>
+          <role xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>provider-core-router</policy-name>
+          </role>
+        </policies>
+      </endpoint>
+      <endpoint>
+        <topology-name>p2.sin</topology-name>
+        <policies>
+          <hostname xmlns="http://example.com/device-policy-base">
+            <policy-name>corporate-hostname</policy-name>
+            <hostname>p2.sin</hostname>
+          </hostname>
+          <loopback xmlns="http://example.com/device-policy-base">
+            <policy-name>loopback-standard</policy-name>
+            <interface-number>0</interface-number>
+            <ip-address>1.1.2.2</ip-address>
+            <prefix-sid>16122</prefix-sid>
+          </loopback>
+          <static-route xmlns="http://example.com/device-policy-base">
+            <policy-name>static-route-standard</policy-name>
+            <network>0.0.0.0/0</network>
+            <ip-address>172.19.104.1</ip-address>
+          </static-route>
+          <model xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>ASR9K</policy-name>
+          </model>
+          <role xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>provider-core-router</policy-name>
+          </role>
+        </policies>
+      </endpoint>
+      <endpoint>
+        <topology-name>p1.occ</topology-name>
+        <policies>
+          <hostname xmlns="http://example.com/device-policy-base">
+            <policy-name>corporate-hostname</policy-name>
+            <hostname>p1.occ</hostname>
+          </hostname>
+          <loopback xmlns="http://example.com/device-policy-base">
+            <policy-name>loopback-standard</policy-name>
+            <interface-number>0</interface-number>
+            <ip-address>1.0.2.1</ip-address>
+            <prefix-sid>16021</prefix-sid>
+          </loopback>
+          <static-route xmlns="http://example.com/device-policy-base">
+            <policy-name>static-route-standard</policy-name>
+            <network>0.0.0.0/0</network>
+            <ip-address>172.19.104.1</ip-address>
+          </static-route>
+          <model xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>ASR9K</policy-name>
+          </model>
+          <role xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>provider-core-router</policy-name>
+          </role>
+        </policies>
+      </endpoint>
+      <endpoint>
+        <topology-name>p2.occ</topology-name>
+        <policies>
+          <hostname xmlns="http://example.com/device-policy-base">
+            <policy-name>corporate-hostname</policy-name>
+            <hostname>p2.occ</hostname>
+          </hostname>
+          <loopback xmlns="http://example.com/device-policy-base">
+            <policy-name>loopback-standard</policy-name>
+            <interface-number>0</interface-number>
+            <ip-address>1.1.2.1</ip-address>
+            <prefix-sid>16121</prefix-sid>
+          </loopback>
+          <static-route xmlns="http://example.com/device-policy-base">
+            <policy-name>static-route-standard</policy-name>
+            <network>0.0.0.0/0</network>
+            <ip-address>172.19.104.1</ip-address>
+          </static-route>
+          <model xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>ASR9K</policy-name>
+          </model>
+          <role xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>provider-core-router</policy-name>
+          </role>
+        </policies>
+      </endpoint>
+      <endpoint>
+        <topology-name>p1.oce</topology-name>
+        <policies>
+          <hostname xmlns="http://example.com/device-policy-base">
+            <policy-name>corporate-hostname</policy-name>
+            <hostname>p1.oce</hostname>
+          </hostname>
+          <loopback xmlns="http://example.com/device-policy-base">
+            <policy-name>loopback-standard</policy-name>
+            <interface-number>0</interface-number>
+            <ip-address>1.0.2.3</ip-address>
+            <prefix-sid>16023</prefix-sid>
+          </loopback>
+          <static-route xmlns="http://example.com/device-policy-base">
+            <policy-name>static-route-standard</policy-name>
+            <network>0.0.0.0/0</network>
+            <ip-address>172.19.104.1</ip-address>
+          </static-route>
+          <model xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>ASR9K</policy-name>
+          </model>
+          <role xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>provider-core-router</policy-name>
+          </role>
+        </policies>
+      </endpoint>
+      <endpoint>
+        <topology-name>p2.oce</topology-name>
+        <policies>
+          <hostname xmlns="http://example.com/device-policy-base">
+            <policy-name>corporate-hostname</policy-name>
+            <hostname>p2.oce</hostname>
+          </hostname>
+          <loopback xmlns="http://example.com/device-policy-base">
+            <policy-name>loopback-standard</policy-name>
+            <interface-number>0</interface-number>
+            <ip-address>1.1.2.3</ip-address>
+            <prefix-sid>16121</prefix-sid>
+          </loopback>
+          <static-route xmlns="http://example.com/device-policy-base">
+            <policy-name>static-route-standard</policy-name>
+            <network>0.0.0.0/0</network>
+            <ip-address>172.19.104.1</ip-address>
+          </static-route>
+          <model xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>ASR9K</policy-name>
+          </model>
+          <role xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>provider-core-router</policy-name>
+          </role>
+        </policies>
+      </endpoint>
+      <endpoint>
+        <topology-name>p1.ocb</topology-name>
+        <policies>
+          <hostname xmlns="http://example.com/device-policy-base">
+            <policy-name>corporate-hostname</policy-name>
+            <hostname>p1.ocb</hostname>
+          </hostname>
+          <loopback xmlns="http://example.com/device-policy-base">
+            <policy-name>loopback-standard</policy-name>
+            <interface-number>0</interface-number>
+            <ip-address>1.0.2.4</ip-address>
+            <prefix-sid>16021</prefix-sid>
+          </loopback>
+          <static-route xmlns="http://example.com/device-policy-base">
+            <policy-name>static-route-standard</policy-name>
+            <network>0.0.0.0/0</network>
+            <ip-address>172.19.104.1</ip-address>
+          </static-route>
+          <model xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>ASR9K</policy-name>
+          </model>
+          <role xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>provider-core-router</policy-name>
+          </role>
+        </policies>
+      </endpoint>
+      <endpoint>
+        <topology-name>p2.ocb</topology-name>
+        <policies>
+          <hostname xmlns="http://example.com/device-policy-base">
+            <policy-name>corporate-hostname</policy-name>
+            <hostname>p2.occ</hostname>
+          </hostname>
+          <loopback xmlns="http://example.com/device-policy-base">
+            <policy-name>loopback-standard</policy-name>
+            <interface-number>0</interface-number>
+            <ip-address>1.1.2.4</ip-address>
+            <prefix-sid>16121</prefix-sid>
+          </loopback>
+          <static-route xmlns="http://example.com/device-policy-base">
+            <policy-name>static-route-standard</policy-name>
+            <network>0.0.0.0/0</network>
+            <ip-address>172.19.104.1</ip-address>
+          </static-route>
+          <model xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>ASR9K</policy-name>
+          </model>
+          <role xmlns="http://example.com/physical-device-policy-base">
+            <policy-name>provider-core-router</policy-name>
+          </role>
+        </policies>
+      </endpoint>
+      <connection>
+        <connection-name>fra.p1-to-occ.p1</connection-name>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>A</name>
+          <device>p1.fra</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/2</interface-name>
+            <ip-address>10.0.1.9</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>B</name>
+          <device>p1.occ</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/2</interface-name>
+            <ip-address>10.0.1.10</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <type xmlns="http://example.com/connection-policy-base">
+          <core-core>
+            <policy-name>core-to-core</policy-name>
+          </core-core>
+        </type>
+        <cost xmlns="http://example.com/connection-policy-base">638</cost>
+      </connection>
+      <connection>
+        <connection-name>fra.p2-to-occ.p2</connection-name>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>A</name>
+          <device>p2.fra</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/2</interface-name>
+            <ip-address>10.1.1.9</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>B</name>
+          <device>p2.occ</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/2</interface-name>
+            <ip-address>10.1.1.10</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <type xmlns="http://example.com/connection-policy-base">
+          <core-core>
+            <policy-name>core-to-core</policy-name>
+          </core-core>
+        </type>
+        <cost xmlns="http://example.com/connection-policy-base">638</cost>
+      </connection>
+      <connection>
+        <connection-name>fra.p1-to-sin.p1</connection-name>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>A</name>
+          <device>p1.fra</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/3</interface-name>
+            <ip-address>10.0.1.5</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>B</name>
+          <device>p1.sin</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/3</interface-name>
+            <ip-address>10.0.1.6</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <type xmlns="http://example.com/connection-policy-base">
+          <core-core>
+            <policy-name>core-to-core</policy-name>
+          </core-core>
+        </type>
+        <cost xmlns="http://example.com/connection-policy-base">638</cost>
+      </connection>
+      <connection>
+        <connection-name>fra.p2-to-sin.p2</connection-name>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>A</name>
+          <device>p2.fra</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/3</interface-name>
+            <ip-address>10.1.1.5</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>B</name>
+          <device>p2.sin</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/3</interface-name>
+            <ip-address>10.1.1.6</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <type xmlns="http://example.com/connection-policy-base">
+          <core-core>
+            <policy-name>core-to-core</policy-name>
+          </core-core>
+        </type>
+        <cost xmlns="http://example.com/connection-policy-base">638</cost>
+      </connection>
+      <connection>
+        <connection-name>fra.p1-to-ocb.p1</connection-name>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>A</name>
+          <device>p1.fra</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/4</interface-name>
+            <ip-address>10.0.1.29</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>B</name>
+          <device>p1.ocb</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/4</interface-name>
+            <ip-address>10.0.1.30</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <type xmlns="http://example.com/connection-policy-base">
+          <core-core>
+            <policy-name>core-to-core</policy-name>
+          </core-core>
+        </type>
+        <cost xmlns="http://example.com/connection-policy-base">638</cost>
+      </connection>
+      <connection>
+        <connection-name>fra.p2-to-ocb.p2</connection-name>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>A</name>
+          <device>p2.fra</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/4</interface-name>
+            <ip-address>10.1.1.29</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>B</name>
+          <device>p2.ocb</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/4</interface-name>
+            <ip-address>10.1.1.30</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <type xmlns="http://example.com/connection-policy-base">
+          <core-core>
+            <policy-name>core-to-core</policy-name>
+          </core-core>
+        </type>
+        <cost xmlns="http://example.com/connection-policy-base">638</cost>
+      </connection>
+      <connection>
+        <connection-name>lon.p1-to-ocb.p1</connection-name>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>A</name>
+          <device>p1.lon</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/5</interface-name>
+            <ip-address>10.0.1.25</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>B</name>
+          <device>p1.ocb</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/5</interface-name>
+            <ip-address>10.0.1.26</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <type xmlns="http://example.com/connection-policy-base">
+          <core-core>
+            <policy-name>core-to-core</policy-name>
+          </core-core>
+        </type>
+        <cost xmlns="http://example.com/connection-policy-base">638</cost>
+      </connection>
+      <connection>
+        <connection-name>lon.p2-to-ocb.p2</connection-name>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>A</name>
+          <device>p2.lon</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/5</interface-name>
+            <ip-address>10.1.1.25</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>B</name>
+          <device>p2.ocb</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/5</interface-name>
+            <ip-address>10.1.1.26</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <type xmlns="http://example.com/connection-policy-base">
+          <core-core>
+            <policy-name>core-to-core</policy-name>
+          </core-core>
+        </type>
+        <cost xmlns="http://example.com/connection-policy-base">638</cost>
+      </connection>
+      <connection>
+        <connection-name>lon.p1-to-oce.p1</connection-name>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>A</name>
+          <device>p1.lon</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/6</interface-name>
+            <ip-address>10.0.1.21</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>B</name>
+          <device>p1.oce</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/6</interface-name>
+            <ip-address>10.0.1.22</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <type xmlns="http://example.com/connection-policy-base">
+          <core-core>
+            <policy-name>core-to-core</policy-name>
+          </core-core>
+        </type>
+        <cost xmlns="http://example.com/connection-policy-base">638</cost>
+      </connection>
+      <connection>
+        <connection-name>lon.p2-to-oce.p2</connection-name>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>A</name>
+          <device>p2.lon</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/6</interface-name>
+            <ip-address>10.1.1.21</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>B</name>
+          <device>p2.oce</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/6</interface-name>
+            <ip-address>10.1.1.22</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <type xmlns="http://example.com/connection-policy-base">
+          <core-core>
+            <policy-name>core-to-core</policy-name>
+          </core-core>
+        </type>
+        <cost xmlns="http://example.com/connection-policy-base">638</cost>
+      </connection>
+      <connection>
+        <connection-name>occ.p1-to-oce.p1-1</connection-name>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>A</name>
+          <device>p1.occ</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/7</interface-name>
+            <ip-address>10.0.1.17</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>B</name>
+          <device>p1.oce</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/7</interface-name>
+            <ip-address>10.0.1.18</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <type xmlns="http://example.com/connection-policy-base">
+          <core-core>
+            <policy-name>core-to-core</policy-name>
+          </core-core>
+        </type>
+        <cost xmlns="http://example.com/connection-policy-base">638</cost>
+      </connection>
+      <connection>
+        <connection-name>occ.p1-to-oce.p1-2</connection-name>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>A</name>
+          <device>p1.occ</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/8</interface-name>
+            <ip-address>10.0.1.13</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>B</name>
+          <device>p1.oce</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/8</interface-name>
+            <ip-address>10.0.1.14</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <type xmlns="http://example.com/connection-policy-base">
+          <core-core>
+            <policy-name>core-to-core</policy-name>
+          </core-core>
+        </type>
+        <cost xmlns="http://example.com/connection-policy-base">638</cost>
+      </connection>
+      <connection>
+        <connection-name>occ.p2-to-oce.p2-1</connection-name>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>A</name>
+          <device>p2.occ</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/7</interface-name>
+            <ip-address>10.1.1.17</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>B</name>
+          <device>p2.oce</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/7</interface-name>
+            <ip-address>10.1.1.18</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <type xmlns="http://example.com/connection-policy-base">
+          <core-core>
+            <policy-name>core-to-core</policy-name>
+          </core-core>
+        </type>
+        <cost xmlns="http://example.com/connection-policy-base">638</cost>
+      </connection>
+      <connection>
+        <connection-name>occ.p2-to-oce.p2-2</connection-name>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>A</name>
+          <device>p2.occ</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/8</interface-name>
+            <ip-address>10.1.1.13</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <side xmlns="http://example.com/connection-policy-base">
+          <name>B</name>
+          <device>p2.oce</device>
+          <port>
+            <interface-type>HundredGigE</interface-type>
+            <interface-name>0/0/0/8</interface-name>
+            <ip-address>10.1.1.14</ip-address>
+            <ip-mask>255.255.255.252</ip-mask>
+          </port>
+        </side>
+        <type xmlns="http://example.com/connection-policy-base">
+          <core-core>
+            <policy-name>core-to-core</policy-name>
+          </core-core>
+        </type>
+        <cost xmlns="http://example.com/connection-policy-base">638</cost>
+      </connection>
+    </topology>
+  </network-service>
+  </network>
+</config>

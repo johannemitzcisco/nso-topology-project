@@ -1,0 +1,1483 @@
+Evaluating "$DEVICE-NAME" (from file "topology-policy-cdp.xml", line 4)
+Context node: /devices
+Result: "p1.fra"
+Operation 'merge' on existing node: /devices/device[name='p1.fra'] (from file "topology-policy-cdp.xml", line 4)
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:cdp (from file "topology-policy-cdp.xml", line 6)
+Evaluating "device[name=$DEVICE-NAME]/config/cisco-ios-xr:interface/FortyGigE" (from file "topology-policy-cdp.xml", line 13)
+Context node: /devices
+Result: empty node - skipping siblings
+Evaluating "device[name=$DEVICE-NAME]/config/cisco-ios-xr:interface/HundredGigE" (from file "topology-policy-cdp.xml", line 17)
+Context node: /devices
+Result: empty node - skipping siblings
+Evaluating "ncs:device[ncs:name='asr-nyc']/ncs:config/cisco-ios-xr:interface/TenGigE" (from file "topology-policy-cdp.xml", line 9)
+Context node: /devices
+Result: empty node - skipping siblings
+Evaluating "device[name=$DEVICE-NAME]/config/cisco-ios-xr:interface/preconfigure/HundredGigE" (from file "topology-policy-cdp.xml", line 22)
+Context node: /devices
+Result: empty node - skipping siblings
+Evaluating "$DEVICE-NAME" (from file "topology-policy-cdp.xml", line 4)
+Context node: /network
+Result: "p1.fra"
+Operation 'merge' on existing node: /devices/device[name='p1.fra'] (from file "topology-policy-cdp.xml", line 4)
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:cdp (from file "topology-policy-cdp.xml", line 6)
+Evaluating "device[name=$DEVICE-NAME]/config/cisco-ios-xr:interface/FortyGigE" (from file "topology-policy-cdp.xml", line 13)
+Context node: /network
+Result: empty node - skipping siblings
+Evaluating "device[name=$DEVICE-NAME]/config/cisco-ios-xr:interface/HundredGigE" (from file "topology-policy-cdp.xml", line 17)
+Context node: /network
+Result: empty node - skipping siblings
+Evaluating "ncs:device[ncs:name='asr-nyc']/ncs:config/cisco-ios-xr:interface/TenGigE" (from file "topology-policy-cdp.xml", line 9)
+Context node: /network
+Result: empty node - skipping siblings
+Evaluating "device[name=$DEVICE-NAME]/config/cisco-ios-xr:interface/preconfigure/HundredGigE" (from file "topology-policy-cdp.xml", line 22)
+Context node: /network
+Result: empty node - skipping siblings
+Evaluating "$DEVICE-NAME" (from file "topology-policy-cdp.xml", line 4)
+Context node: /devices
+Result: "p1.lon"
+Operation 'merge' on existing node: /devices/device[name='p1.lon'] (from file "topology-policy-cdp.xml", line 4)
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:cdp (from file "topology-policy-cdp.xml", line 6)
+Evaluating "device[name=$DEVICE-NAME]/config/cisco-ios-xr:interface/FortyGigE" (from file "topology-policy-cdp.xml", line 13)
+Context node: /devices
+Result: empty node - skipping siblings
+Evaluating "device[name=$DEVICE-NAME]/config/cisco-ios-xr:interface/HundredGigE" (from file "topology-policy-cdp.xml", line 17)
+Context node: /devices
+Result: empty node - skipping siblings
+Evaluating "ncs:device[ncs:name='asr-nyc']/ncs:config/cisco-ios-xr:interface/TenGigE" (from file "topology-policy-cdp.xml", line 9)
+Context node: /devices
+Result: empty node - skipping siblings
+Evaluating "device[name=$DEVICE-NAME]/config/cisco-ios-xr:interface/preconfigure/HundredGigE" (from file "topology-policy-cdp.xml", line 22)
+Context node: /devices
+Result: empty node - skipping siblings
+Evaluating "$DEVICE-NAME" (from file "topology-policy-cdp.xml", line 4)
+Context node: /network
+Result: "p1.lon"
+Operation 'merge' on existing node: /devices/device[name='p1.lon'] (from file "topology-policy-cdp.xml", line 4)
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:cdp (from file "topology-policy-cdp.xml", line 6)
+Evaluating "device[name=$DEVICE-NAME]/config/cisco-ios-xr:interface/FortyGigE" (from file "topology-policy-cdp.xml", line 13)
+Context node: /network
+Result: empty node - skipping siblings
+Evaluating "device[name=$DEVICE-NAME]/config/cisco-ios-xr:interface/HundredGigE" (from file "topology-policy-cdp.xml", line 17)
+Context node: /network
+Result: empty node - skipping siblings
+Evaluating "ncs:device[ncs:name='asr-nyc']/ncs:config/cisco-ios-xr:interface/TenGigE" (from file "topology-policy-cdp.xml", line 9)
+Context node: /network
+Result: empty node - skipping siblings
+Evaluating "device[name=$DEVICE-NAME]/config/cisco-ios-xr:interface/preconfigure/HundredGigE" (from file "topology-policy-cdp.xml", line 22)
+Context node: /network
+Result: empty node - skipping siblings
+Evaluating "$DEVICE-NAME" (from file "topology-policy-callhome.xml", line 4)
+Context node: /devices
+Result: "p1.fra"
+Operation 'merge' on existing node: /devices/device[name='p1.fra'] (from file "topology-policy-callhome.xml", line 4)
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:call-home/service/active (from file "topology-policy-callhome.xml", line 8)
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:call-home/contact/smart-licensing (from file "topology-policy-callhome.xml", line 11)
+Fetching literal "CiscoTAC-1" (from file "topology-policy-callhome.xml", line 14)
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:call-home/profile[name='CiscoTAC-1'] (from file "topology-policy-callhome.xml", line 14)
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:call-home/profile[name='CiscoTAC-1']/active (from file "topology-policy-callhome.xml", line 15)
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:call-home/profile[name='CiscoTAC-1']/destination/transport-method/http (from file "topology-policy-callhome.xml", line 18)
+Evaluating "$DEVICE-NAME" (from file "topology-policy-callhome.xml", line 4)
+Context node: /network
+Result: "p1.fra"
+Operation 'merge' on existing node: /devices/device[name='p1.fra'] (from file "topology-policy-callhome.xml", line 4)
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:call-home/service/active (from file "topology-policy-callhome.xml", line 8)
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:call-home/contact/smart-licensing (from file "topology-policy-callhome.xml", line 11)
+Fetching literal "CiscoTAC-1" (from file "topology-policy-callhome.xml", line 14)
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:call-home/profile[name='CiscoTAC-1'] (from file "topology-policy-callhome.xml", line 14)
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:call-home/profile[name='CiscoTAC-1']/active (from file "topology-policy-callhome.xml", line 15)
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:call-home/profile[name='CiscoTAC-1']/destination/transport-method/http (from file "topology-policy-callhome.xml", line 18)
+Evaluating "$DEVICE-NAME" (from file "topology-policy-callhome.xml", line 4)
+Context node: /devices
+Result: "p1.lon"
+Operation 'merge' on existing node: /devices/device[name='p1.lon'] (from file "topology-policy-callhome.xml", line 4)
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:call-home/service/active (from file "topology-policy-callhome.xml", line 8)
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:call-home/contact/smart-licensing (from file "topology-policy-callhome.xml", line 11)
+Fetching literal "CiscoTAC-1" (from file "topology-policy-callhome.xml", line 14)
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:call-home/profile[name='CiscoTAC-1'] (from file "topology-policy-callhome.xml", line 14)
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:call-home/profile[name='CiscoTAC-1']/active (from file "topology-policy-callhome.xml", line 15)
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:call-home/profile[name='CiscoTAC-1']/destination/transport-method/http (from file "topology-policy-callhome.xml", line 18)
+Evaluating "$DEVICE-NAME" (from file "topology-policy-callhome.xml", line 4)
+Context node: /network
+Result: "p1.lon"
+Operation 'merge' on existing node: /devices/device[name='p1.lon'] (from file "topology-policy-callhome.xml", line 4)
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:call-home/service/active (from file "topology-policy-callhome.xml", line 8)
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:call-home/contact/smart-licensing (from file "topology-policy-callhome.xml", line 11)
+Fetching literal "CiscoTAC-1" (from file "topology-policy-callhome.xml", line 14)
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:call-home/profile[name='CiscoTAC-1'] (from file "topology-policy-callhome.xml", line 14)
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:call-home/profile[name='CiscoTAC-1']/active (from file "topology-policy-callhome.xml", line 15)
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:call-home/profile[name='CiscoTAC-1']/destination/transport-method/http (from file "topology-policy-callhome.xml", line 18)
+Evaluating "$DEVICE-NAME" (from file "topology-policy-line.xml", line 4)
+Context node: /devices
+Result: "p1.fra"
+Operation 'merge' on existing node: /devices/device[name='p1.fra'] (from file "topology-policy-line.xml", line 4)
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/timeout/login/response (from file "topology-policy-line.xml", line 10)
+Fetching literal "30" (from file "topology-policy-line.xml", line 10)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/timeout/login/response to "30"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/exec-timeout/minutes (from file "topology-policy-line.xml", line 14)
+Fetching literal "0" (from file "topology-policy-line.xml", line 14)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/exec-timeout/minutes to "0"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/exec-timeout/seconds (from file "topology-policy-line.xml", line 15)
+Fetching literal "0" (from file "topology-policy-line.xml", line 15)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/exec-timeout/seconds to "0"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/session-limit (from file "topology-policy-line.xml", line 17)
+Fetching literal "20" (from file "topology-policy-line.xml", line 17)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/session-limit to "20"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/telnet/transparent (from file "topology-policy-line.xml", line 19)
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/session-timeout/minutes (from file "topology-policy-line.xml", line 22)
+Fetching literal "0" (from file "topology-policy-line.xml", line 22)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/session-timeout/minutes to "0"
+Fetching literal "vty" (from file "topology-policy-line.xml", line 26)
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:line/template[name='vty'] (from file "topology-policy-line.xml", line 26)
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:line/template[name='vty']/exec-timeout/minutes (from file "topology-policy-line.xml", line 28)
+Fetching literal "0" (from file "topology-policy-line.xml", line 28)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:line/template[name='vty']/exec-timeout/minutes to "0"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:line/template[name='vty']/exec-timeout/seconds (from file "topology-policy-line.xml", line 29)
+Fetching literal "0" (from file "topology-policy-line.xml", line 29)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:line/template[name='vty']/exec-timeout/seconds to "0"
+Evaluating "$DEVICE-NAME" (from file "topology-policy-line.xml", line 4)
+Context node: /network
+Result: "p1.fra"
+Operation 'merge' on existing node: /devices/device[name='p1.fra'] (from file "topology-policy-line.xml", line 4)
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/timeout/login/response (from file "topology-policy-line.xml", line 10)
+Fetching literal "30" (from file "topology-policy-line.xml", line 10)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/timeout/login/response to "30"
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/exec-timeout/minutes (from file "topology-policy-line.xml", line 14)
+Fetching literal "0" (from file "topology-policy-line.xml", line 14)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/exec-timeout/minutes to "0"
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/exec-timeout/seconds (from file "topology-policy-line.xml", line 15)
+Fetching literal "0" (from file "topology-policy-line.xml", line 15)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/exec-timeout/seconds to "0"
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/session-limit (from file "topology-policy-line.xml", line 17)
+Fetching literal "20" (from file "topology-policy-line.xml", line 17)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/session-limit to "20"
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/telnet/transparent (from file "topology-policy-line.xml", line 19)
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/session-timeout/minutes (from file "topology-policy-line.xml", line 22)
+Fetching literal "0" (from file "topology-policy-line.xml", line 22)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:line/default/session-timeout/minutes to "0"
+Fetching literal "vty" (from file "topology-policy-line.xml", line 26)
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:line/template[name='vty'] (from file "topology-policy-line.xml", line 26)
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:line/template[name='vty']/exec-timeout/minutes (from file "topology-policy-line.xml", line 28)
+Fetching literal "0" (from file "topology-policy-line.xml", line 28)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:line/template[name='vty']/exec-timeout/minutes to "0"
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:line/template[name='vty']/exec-timeout/seconds (from file "topology-policy-line.xml", line 29)
+Fetching literal "0" (from file "topology-policy-line.xml", line 29)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:line/template[name='vty']/exec-timeout/seconds to "0"
+Evaluating "$DEVICE-NAME" (from file "topology-policy-line.xml", line 4)
+Context node: /devices
+Result: "p1.lon"
+Operation 'merge' on existing node: /devices/device[name='p1.lon'] (from file "topology-policy-line.xml", line 4)
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/timeout/login/response (from file "topology-policy-line.xml", line 10)
+Fetching literal "30" (from file "topology-policy-line.xml", line 10)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/timeout/login/response to "30"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/exec-timeout/minutes (from file "topology-policy-line.xml", line 14)
+Fetching literal "0" (from file "topology-policy-line.xml", line 14)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/exec-timeout/minutes to "0"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/exec-timeout/seconds (from file "topology-policy-line.xml", line 15)
+Fetching literal "0" (from file "topology-policy-line.xml", line 15)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/exec-timeout/seconds to "0"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/session-limit (from file "topology-policy-line.xml", line 17)
+Fetching literal "20" (from file "topology-policy-line.xml", line 17)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/session-limit to "20"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/telnet/transparent (from file "topology-policy-line.xml", line 19)
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/session-timeout/minutes (from file "topology-policy-line.xml", line 22)
+Fetching literal "0" (from file "topology-policy-line.xml", line 22)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/session-timeout/minutes to "0"
+Fetching literal "vty" (from file "topology-policy-line.xml", line 26)
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:line/template[name='vty'] (from file "topology-policy-line.xml", line 26)
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:line/template[name='vty']/exec-timeout/minutes (from file "topology-policy-line.xml", line 28)
+Fetching literal "0" (from file "topology-policy-line.xml", line 28)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:line/template[name='vty']/exec-timeout/minutes to "0"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:line/template[name='vty']/exec-timeout/seconds (from file "topology-policy-line.xml", line 29)
+Fetching literal "0" (from file "topology-policy-line.xml", line 29)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:line/template[name='vty']/exec-timeout/seconds to "0"
+Evaluating "$DEVICE-NAME" (from file "topology-policy-line.xml", line 4)
+Context node: /network
+Result: "p1.lon"
+Operation 'merge' on existing node: /devices/device[name='p1.lon'] (from file "topology-policy-line.xml", line 4)
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/timeout/login/response (from file "topology-policy-line.xml", line 10)
+Fetching literal "30" (from file "topology-policy-line.xml", line 10)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/timeout/login/response to "30"
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/exec-timeout/minutes (from file "topology-policy-line.xml", line 14)
+Fetching literal "0" (from file "topology-policy-line.xml", line 14)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/exec-timeout/minutes to "0"
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/exec-timeout/seconds (from file "topology-policy-line.xml", line 15)
+Fetching literal "0" (from file "topology-policy-line.xml", line 15)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/exec-timeout/seconds to "0"
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/session-limit (from file "topology-policy-line.xml", line 17)
+Fetching literal "20" (from file "topology-policy-line.xml", line 17)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/session-limit to "20"
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/telnet/transparent (from file "topology-policy-line.xml", line 19)
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/session-timeout/minutes (from file "topology-policy-line.xml", line 22)
+Fetching literal "0" (from file "topology-policy-line.xml", line 22)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:line/default/session-timeout/minutes to "0"
+Fetching literal "vty" (from file "topology-policy-line.xml", line 26)
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:line/template[name='vty'] (from file "topology-policy-line.xml", line 26)
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:line/template[name='vty']/exec-timeout/minutes (from file "topology-policy-line.xml", line 28)
+Fetching literal "0" (from file "topology-policy-line.xml", line 28)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:line/template[name='vty']/exec-timeout/minutes to "0"
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:line/template[name='vty']/exec-timeout/seconds (from file "topology-policy-line.xml", line 29)
+Fetching literal "0" (from file "topology-policy-line.xml", line 29)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:line/template[name='vty']/exec-timeout/seconds to "0"
+Evaluating "$DEVICE-NAME" (from file "topology-policy-qos.xml", line 4)
+Context node: /devices
+Result: "p1.fra"
+Operation 'merge' on existing node: /devices/device[name='p1.fra'] (from file "topology-policy-qos.xml", line 4)
+Evaluating "/network-service[$SERVICE-NAME]/topology/policies/qos/class-map" (from file "topology-policy-qos.xml", line 6)
+Context node: /devices
+Result: empty node - skipping siblings
+Evaluating "/network-service[$SERVICE-NAME]/topology/policies/qos/policy-map" (from file "topology-policy-qos.xml", line 20)
+Context node: /devices
+Result: empty node - skipping siblings
+Evaluating "/network-service[name=$SERVICE-NAME]/topology/connection[type/core-core]/side[device=$DEVICE-TOPOLOGY-NAME]/port[interface-type='HundredGigE']" (from file "topology-policy-qos.xml", line 64)
+Context node: /devices
+Result: empty node - skipping siblings
+Evaluating "$DEVICE-NAME" (from file "topology-policy-qos.xml", line 4)
+Context node: /network
+Result: "p1.fra"
+Operation 'merge' on existing node: /devices/device[name='p1.fra'] (from file "topology-policy-qos.xml", line 4)
+Evaluating "/network-service[$SERVICE-NAME]/topology/policies/qos/class-map" (from file "topology-policy-qos.xml", line 6)
+Context node: /network
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-IN'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-OUT'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-IN'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-OUT'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control-OUT'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='class-default'], it evaluates to []
+Evaluating "current()/name" (from file "topology-policy-qos.xml", line 7)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-IN']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-IN'], it evaluates to "AF21-IN"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='AF21-IN'] (from file "topology-policy-qos.xml", line 7)
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='AF21-IN']/prematch (from file "topology-policy-qos.xml", line 8)
+Fetching literal "match-any" (from file "topology-policy-qos.xml", line 8)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='AF21-IN']/prematch to "match-any"
+Evaluating "current()/match/topmost" (from file "topology-policy-qos.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-IN']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-IN']/match[match-type='mpls']/topmost[.='2'], it evaluates to []
+Evaluating "current()" (from file "topology-policy-qos.xml", line 12)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-IN']/match[match-type='mpls']/topmost[.='2']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-IN']/match[match-type='mpls']/topmost[.='2'], it evaluates to "2"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='AF21-IN']/match/mpls/experimental/topmost[.='2'] (from file "topology-policy-qos.xml", line 12)
+Evaluating "current()/match/qos-group" (from file "topology-policy-qos.xml", line 16)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-IN']
+Result: empty node
+Evaluating "current()/name" (from file "topology-policy-qos.xml", line 7)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-OUT'], it evaluates to "AF21-OUT"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='AF21-OUT'] (from file "topology-policy-qos.xml", line 7)
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='AF21-OUT']/prematch (from file "topology-policy-qos.xml", line 8)
+Fetching literal "match-any" (from file "topology-policy-qos.xml", line 8)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='AF21-OUT']/prematch to "match-any"
+Evaluating "current()/match/topmost" (from file "topology-policy-qos.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-OUT']
+Result: empty node
+Evaluating "current()/match/qos-group" (from file "topology-policy-qos.xml", line 16)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-OUT']/match[match-type='qos-group']/qos-group[.='2'], it evaluates to []
+Evaluating "current()" (from file "topology-policy-qos.xml", line 17)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-OUT']/match[match-type='qos-group']/qos-group[.='2']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-OUT']/match[match-type='qos-group']/qos-group[.='2'], it evaluates to "2"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='AF21-OUT']/match/qos-group[.='2'] (from file "topology-policy-qos.xml", line 17)
+Evaluating "current()/name" (from file "topology-policy-qos.xml", line 7)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-IN']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-IN'], it evaluates to "AF31-IN"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='AF31-IN'] (from file "topology-policy-qos.xml", line 7)
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='AF31-IN']/prematch (from file "topology-policy-qos.xml", line 8)
+Fetching literal "match-any" (from file "topology-policy-qos.xml", line 8)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='AF31-IN']/prematch to "match-any"
+Evaluating "current()/match/topmost" (from file "topology-policy-qos.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-IN']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-IN']/match[match-type='mpls']/topmost[.='3'], it evaluates to []
+Evaluating "current()" (from file "topology-policy-qos.xml", line 12)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-IN']/match[match-type='mpls']/topmost[.='3']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-IN']/match[match-type='mpls']/topmost[.='3'], it evaluates to "3"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='AF31-IN']/match/mpls/experimental/topmost[.='3'] (from file "topology-policy-qos.xml", line 12)
+Evaluating "current()/match/qos-group" (from file "topology-policy-qos.xml", line 16)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-IN']
+Result: empty node
+Evaluating "current()/name" (from file "topology-policy-qos.xml", line 7)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-OUT'], it evaluates to "AF31-OUT"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='AF31-OUT'] (from file "topology-policy-qos.xml", line 7)
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='AF31-OUT']/prematch (from file "topology-policy-qos.xml", line 8)
+Fetching literal "match-any" (from file "topology-policy-qos.xml", line 8)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='AF31-OUT']/prematch to "match-any"
+Evaluating "current()/match/topmost" (from file "topology-policy-qos.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-OUT']
+Result: empty node
+Evaluating "current()/match/qos-group" (from file "topology-policy-qos.xml", line 16)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-OUT']/match[match-type='qos-group']/qos-group[.='3'], it evaluates to []
+Evaluating "current()" (from file "topology-policy-qos.xml", line 17)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-OUT']/match[match-type='qos-group']/qos-group[.='3']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-OUT']/match[match-type='qos-group']/qos-group[.='3'], it evaluates to "3"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='AF31-OUT']/match/qos-group[.='3'] (from file "topology-policy-qos.xml", line 17)
+Evaluating "current()/name" (from file "topology-policy-qos.xml", line 7)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control'], it evaluates to "Network-Control"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='Network-Control'] (from file "topology-policy-qos.xml", line 7)
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='Network-Control']/prematch (from file "topology-policy-qos.xml", line 8)
+Fetching literal "match-any" (from file "topology-policy-qos.xml", line 8)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='Network-Control']/prematch to "match-any"
+Evaluating "current()/match/topmost" (from file "topology-policy-qos.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control']/match[match-type='mpls']/topmost[.='6'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control']/match[match-type='mpls']/topmost[.='7'], it evaluates to []
+Evaluating "current()" (from file "topology-policy-qos.xml", line 12)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control']/match[match-type='mpls']/topmost[.='6']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control']/match[match-type='mpls']/topmost[.='6'], it evaluates to "6"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='Network-Control']/match/mpls/experimental/topmost[.='6'] (from file "topology-policy-qos.xml", line 12)
+Evaluating "current()" (from file "topology-policy-qos.xml", line 12)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control']/match[match-type='mpls']/topmost[.='7']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control']/match[match-type='mpls']/topmost[.='7'], it evaluates to "7"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='Network-Control']/match/mpls/experimental/topmost[.='7'] (from file "topology-policy-qos.xml", line 12)
+Evaluating "current()/match/qos-group" (from file "topology-policy-qos.xml", line 16)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control']
+Result: empty node
+Evaluating "current()/name" (from file "topology-policy-qos.xml", line 7)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control-OUT'], it evaluates to "Network-Control-OUT"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='Network-Control-OUT'] (from file "topology-policy-qos.xml", line 7)
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='Network-Control-OUT']/prematch (from file "topology-policy-qos.xml", line 8)
+Fetching literal "match-any" (from file "topology-policy-qos.xml", line 8)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='Network-Control-OUT']/prematch to "match-any"
+Evaluating "current()/match/topmost" (from file "topology-policy-qos.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control-OUT']
+Result: empty node
+Evaluating "current()/match/qos-group" (from file "topology-policy-qos.xml", line 16)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control-OUT']/match[match-type='qos-group']/qos-group[.='4'], it evaluates to []
+Evaluating "current()" (from file "topology-policy-qos.xml", line 17)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control-OUT']/match[match-type='qos-group']/qos-group[.='4']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control-OUT']/match[match-type='qos-group']/qos-group[.='4'], it evaluates to "4"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='Network-Control-OUT']/match/qos-group[.='4'] (from file "topology-policy-qos.xml", line 17)
+Evaluating "current()/name" (from file "topology-policy-qos.xml", line 7)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='class-default']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='class-default'], it evaluates to "class-default"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='class-default'] (from file "topology-policy-qos.xml", line 7)
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='class-default']/prematch (from file "topology-policy-qos.xml", line 8)
+Fetching literal "match-any" (from file "topology-policy-qos.xml", line 8)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:class-map[name='class-default']/prematch to "match-any"
+Evaluating "current()/match/topmost" (from file "topology-policy-qos.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='class-default']
+Result: empty node
+Evaluating "current()/match/qos-group" (from file "topology-policy-qos.xml", line 16)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='class-default']
+Result: empty node
+Evaluating "/network-service[$SERVICE-NAME]/topology/policies/qos/policy-map" (from file "topology-policy-qos.xml", line 20)
+Context node: /network
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT'], it evaluates to []
+Evaluating "current()/name" (from file "topology-policy-qos.xml", line 21)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT'], it evaluates to "VISA-QOS-INPUT"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-INPUT'] (from file "topology-policy-qos.xml", line 21)
+Evaluating "current()/class" (from file "topology-policy-qos.xml", line 22)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='AF21-IN'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='AF31-IN'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='Network-Control'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='class-default'], it evaluates to []
+Evaluating when-expression "boolean(current()/class-type='default')" (from file "topology-policy-qos.xml", line 42)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='AF21-IN']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='reference')" (from file "topology-policy-qos.xml", line 23)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='AF21-IN']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='default')" (from file "topology-policy-qos.xml", line 42)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='AF31-IN']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='reference')" (from file "topology-policy-qos.xml", line 23)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='AF31-IN']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='default')" (from file "topology-policy-qos.xml", line 42)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='Network-Control']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='reference')" (from file "topology-policy-qos.xml", line 23)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='Network-Control']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='default')" (from file "topology-policy-qos.xml", line 42)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='class-default']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='reference')" (from file "topology-policy-qos.xml", line 23)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='class-default']
+Result: false - skipping siblings
+Evaluating "current()/name" (from file "topology-policy-qos.xml", line 21)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT'], it evaluates to "VISA-QOS-OUT"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT'] (from file "topology-policy-qos.xml", line 21)
+Evaluating "current()/class" (from file "topology-policy-qos.xml", line 22)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF21-OUT'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF31-OUT'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='class-default'], it evaluates to []
+Evaluating when-expression "boolean(current()/class-type='default')" (from file "topology-policy-qos.xml", line 42)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF21-OUT']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='reference')" (from file "topology-policy-qos.xml", line 23)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF21-OUT']
+Result: true - continuing
+Evaluating "current()/class-ref-name" (from file "topology-policy-qos.xml", line 24)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF21-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF21-OUT'], it evaluates to "AF21-OUT"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF21-OUT'] (from file "topology-policy-qos.xml", line 24)
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF21-OUT']/set/qos-group (from file "topology-policy-qos.xml", line 26)
+Evaluating "current()/qos-group" (from file "topology-policy-qos.xml", line 26)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF21-OUT']
+Result: empty node
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF21-OUT']/bandwidth/percent (from file "topology-policy-qos.xml", line 29)
+Evaluating "current()/bandwidth-percent" (from file "topology-policy-qos.xml", line 29)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF21-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF21-OUT'], it evaluates to "20"
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF21-OUT']/bandwidth/percent to "20"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF21-OUT']/police-rate-unit/police/rate/percent (from file "topology-policy-qos.xml", line 34)
+Evaluating "current()/police-rate-percent" (from file "topology-policy-qos.xml", line 34)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF21-OUT']
+Result: empty node
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF21-OUT']/priority/level (from file "topology-policy-qos.xml", line 39)
+Evaluating "current()/priority-level" (from file "topology-policy-qos.xml", line 39)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF21-OUT']
+Result: empty node
+Evaluating when-expression "boolean(current()/class-type='default')" (from file "topology-policy-qos.xml", line 42)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF31-OUT']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='reference')" (from file "topology-policy-qos.xml", line 23)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF31-OUT']
+Result: true - continuing
+Evaluating "current()/class-ref-name" (from file "topology-policy-qos.xml", line 24)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF31-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF31-OUT'], it evaluates to "AF31-OUT"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF31-OUT'] (from file "topology-policy-qos.xml", line 24)
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF31-OUT']/set/qos-group (from file "topology-policy-qos.xml", line 26)
+Evaluating "current()/qos-group" (from file "topology-policy-qos.xml", line 26)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF31-OUT']
+Result: empty node
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF31-OUT']/bandwidth/percent (from file "topology-policy-qos.xml", line 29)
+Evaluating "current()/bandwidth-percent" (from file "topology-policy-qos.xml", line 29)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF31-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF31-OUT'], it evaluates to "60"
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF31-OUT']/bandwidth/percent to "60"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF31-OUT']/police-rate-unit/police/rate/percent (from file "topology-policy-qos.xml", line 34)
+Evaluating "current()/police-rate-percent" (from file "topology-policy-qos.xml", line 34)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF31-OUT']
+Result: empty node
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF31-OUT']/priority/level (from file "topology-policy-qos.xml", line 39)
+Evaluating "current()/priority-level" (from file "topology-policy-qos.xml", line 39)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF31-OUT']
+Result: empty node
+Evaluating when-expression "boolean(current()/class-type='default')" (from file "topology-policy-qos.xml", line 42)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='reference')" (from file "topology-policy-qos.xml", line 23)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT']
+Result: true - continuing
+Evaluating "current()/class-ref-name" (from file "topology-policy-qos.xml", line 24)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT'], it evaluates to "Network-Control-OUT"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='Network-Control-OUT'] (from file "topology-policy-qos.xml", line 24)
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='Network-Control-OUT']/set/qos-group (from file "topology-policy-qos.xml", line 26)
+Evaluating "current()/qos-group" (from file "topology-policy-qos.xml", line 26)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT']
+Result: empty node
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='Network-Control-OUT']/bandwidth/percent (from file "topology-policy-qos.xml", line 29)
+Evaluating "current()/bandwidth-percent" (from file "topology-policy-qos.xml", line 29)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT']
+Result: empty node
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='Network-Control-OUT']/police-rate-unit/police/rate/percent (from file "topology-policy-qos.xml", line 34)
+Evaluating "current()/police-rate-percent" (from file "topology-policy-qos.xml", line 34)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT'], it evaluates to "5"
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='Network-Control-OUT']/police-rate-unit/police/rate/percent to "5"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='Network-Control-OUT']/priority/level (from file "topology-policy-qos.xml", line 39)
+Evaluating "current()/priority-level" (from file "topology-policy-qos.xml", line 39)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT'], it evaluates to "1"
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='Network-Control-OUT']/priority/level to "1"
+Evaluating when-expression "boolean(current()/class-type='default')" (from file "topology-policy-qos.xml", line 42)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='class-default']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='reference')" (from file "topology-policy-qos.xml", line 23)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='class-default']
+Result: false - skipping siblings
+Evaluating "/network-service[name=$SERVICE-NAME]/topology/connection[type/core-core]/side[device=$DEVICE-TOPOLOGY-NAME]/port[interface-type='HundredGigE']" (from file "topology-policy-qos.xml", line 64)
+Context node: /network
+Result:
+For /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='B']/port[interface-type='HundredGigE'][interface-name='0/0/0/0'], it evaluates to []
+Evaluating "interface-name" (from file "topology-policy-qos.xml", line 65)
+Context node: /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='B']/port[interface-type='HundredGigE'][interface-name='0/0/0/0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='B']/port[interface-type='HundredGigE'][interface-name='0/0/0/0'], it evaluates to "0/0/0/0"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0'] (from file "topology-policy-qos.xml", line 65)
+Evaluating "/network/network-service[name=$SERVICE-NAME]/topology/policies/qos/policy-map" (from file "topology-policy-qos.xml", line 66)
+Context node: /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='B']/port[interface-type='HundredGigE'][interface-name='0/0/0/0']
+Result: empty node
+Evaluating "$DEVICE-NAME" (from file "topology-policy-qos.xml", line 4)
+Context node: /devices
+Result: "p1.lon"
+Operation 'merge' on existing node: /devices/device[name='p1.lon'] (from file "topology-policy-qos.xml", line 4)
+Evaluating "/network-service[$SERVICE-NAME]/topology/policies/qos/class-map" (from file "topology-policy-qos.xml", line 6)
+Context node: /devices
+Result: empty node - skipping siblings
+Evaluating "/network-service[$SERVICE-NAME]/topology/policies/qos/policy-map" (from file "topology-policy-qos.xml", line 20)
+Context node: /devices
+Result: empty node - skipping siblings
+Evaluating "/network-service[name=$SERVICE-NAME]/topology/connection[type/core-core]/side[device=$DEVICE-TOPOLOGY-NAME]/port[interface-type='HundredGigE']" (from file "topology-policy-qos.xml", line 64)
+Context node: /devices
+Result: empty node - skipping siblings
+Evaluating "$DEVICE-NAME" (from file "topology-policy-qos.xml", line 4)
+Context node: /network
+Result: "p1.lon"
+Operation 'merge' on existing node: /devices/device[name='p1.lon'] (from file "topology-policy-qos.xml", line 4)
+Evaluating "/network-service[$SERVICE-NAME]/topology/policies/qos/class-map" (from file "topology-policy-qos.xml", line 6)
+Context node: /network
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-IN'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-OUT'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-IN'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-OUT'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control-OUT'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='class-default'], it evaluates to []
+Evaluating "current()/name" (from file "topology-policy-qos.xml", line 7)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-IN']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-IN'], it evaluates to "AF21-IN"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='AF21-IN'] (from file "topology-policy-qos.xml", line 7)
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='AF21-IN']/prematch (from file "topology-policy-qos.xml", line 8)
+Fetching literal "match-any" (from file "topology-policy-qos.xml", line 8)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='AF21-IN']/prematch to "match-any"
+Evaluating "current()/match/topmost" (from file "topology-policy-qos.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-IN']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-IN']/match[match-type='mpls']/topmost[.='2'], it evaluates to []
+Evaluating "current()" (from file "topology-policy-qos.xml", line 12)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-IN']/match[match-type='mpls']/topmost[.='2']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-IN']/match[match-type='mpls']/topmost[.='2'], it evaluates to "2"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='AF21-IN']/match/mpls/experimental/topmost[.='2'] (from file "topology-policy-qos.xml", line 12)
+Evaluating "current()/match/qos-group" (from file "topology-policy-qos.xml", line 16)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-IN']
+Result: empty node
+Evaluating "current()/name" (from file "topology-policy-qos.xml", line 7)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-OUT'], it evaluates to "AF21-OUT"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='AF21-OUT'] (from file "topology-policy-qos.xml", line 7)
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='AF21-OUT']/prematch (from file "topology-policy-qos.xml", line 8)
+Fetching literal "match-any" (from file "topology-policy-qos.xml", line 8)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='AF21-OUT']/prematch to "match-any"
+Evaluating "current()/match/topmost" (from file "topology-policy-qos.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-OUT']
+Result: empty node
+Evaluating "current()/match/qos-group" (from file "topology-policy-qos.xml", line 16)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-OUT']/match[match-type='qos-group']/qos-group[.='2'], it evaluates to []
+Evaluating "current()" (from file "topology-policy-qos.xml", line 17)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-OUT']/match[match-type='qos-group']/qos-group[.='2']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF21-OUT']/match[match-type='qos-group']/qos-group[.='2'], it evaluates to "2"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='AF21-OUT']/match/qos-group[.='2'] (from file "topology-policy-qos.xml", line 17)
+Evaluating "current()/name" (from file "topology-policy-qos.xml", line 7)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-IN']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-IN'], it evaluates to "AF31-IN"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='AF31-IN'] (from file "topology-policy-qos.xml", line 7)
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='AF31-IN']/prematch (from file "topology-policy-qos.xml", line 8)
+Fetching literal "match-any" (from file "topology-policy-qos.xml", line 8)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='AF31-IN']/prematch to "match-any"
+Evaluating "current()/match/topmost" (from file "topology-policy-qos.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-IN']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-IN']/match[match-type='mpls']/topmost[.='3'], it evaluates to []
+Evaluating "current()" (from file "topology-policy-qos.xml", line 12)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-IN']/match[match-type='mpls']/topmost[.='3']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-IN']/match[match-type='mpls']/topmost[.='3'], it evaluates to "3"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='AF31-IN']/match/mpls/experimental/topmost[.='3'] (from file "topology-policy-qos.xml", line 12)
+Evaluating "current()/match/qos-group" (from file "topology-policy-qos.xml", line 16)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-IN']
+Result: empty node
+Evaluating "current()/name" (from file "topology-policy-qos.xml", line 7)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-OUT'], it evaluates to "AF31-OUT"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='AF31-OUT'] (from file "topology-policy-qos.xml", line 7)
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='AF31-OUT']/prematch (from file "topology-policy-qos.xml", line 8)
+Fetching literal "match-any" (from file "topology-policy-qos.xml", line 8)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='AF31-OUT']/prematch to "match-any"
+Evaluating "current()/match/topmost" (from file "topology-policy-qos.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-OUT']
+Result: empty node
+Evaluating "current()/match/qos-group" (from file "topology-policy-qos.xml", line 16)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-OUT']/match[match-type='qos-group']/qos-group[.='3'], it evaluates to []
+Evaluating "current()" (from file "topology-policy-qos.xml", line 17)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-OUT']/match[match-type='qos-group']/qos-group[.='3']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='AF31-OUT']/match[match-type='qos-group']/qos-group[.='3'], it evaluates to "3"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='AF31-OUT']/match/qos-group[.='3'] (from file "topology-policy-qos.xml", line 17)
+Evaluating "current()/name" (from file "topology-policy-qos.xml", line 7)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control'], it evaluates to "Network-Control"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='Network-Control'] (from file "topology-policy-qos.xml", line 7)
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='Network-Control']/prematch (from file "topology-policy-qos.xml", line 8)
+Fetching literal "match-any" (from file "topology-policy-qos.xml", line 8)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='Network-Control']/prematch to "match-any"
+Evaluating "current()/match/topmost" (from file "topology-policy-qos.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control']/match[match-type='mpls']/topmost[.='6'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control']/match[match-type='mpls']/topmost[.='7'], it evaluates to []
+Evaluating "current()" (from file "topology-policy-qos.xml", line 12)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control']/match[match-type='mpls']/topmost[.='6']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control']/match[match-type='mpls']/topmost[.='6'], it evaluates to "6"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='Network-Control']/match/mpls/experimental/topmost[.='6'] (from file "topology-policy-qos.xml", line 12)
+Evaluating "current()" (from file "topology-policy-qos.xml", line 12)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control']/match[match-type='mpls']/topmost[.='7']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control']/match[match-type='mpls']/topmost[.='7'], it evaluates to "7"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='Network-Control']/match/mpls/experimental/topmost[.='7'] (from file "topology-policy-qos.xml", line 12)
+Evaluating "current()/match/qos-group" (from file "topology-policy-qos.xml", line 16)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control']
+Result: empty node
+Evaluating "current()/name" (from file "topology-policy-qos.xml", line 7)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control-OUT'], it evaluates to "Network-Control-OUT"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='Network-Control-OUT'] (from file "topology-policy-qos.xml", line 7)
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='Network-Control-OUT']/prematch (from file "topology-policy-qos.xml", line 8)
+Fetching literal "match-any" (from file "topology-policy-qos.xml", line 8)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='Network-Control-OUT']/prematch to "match-any"
+Evaluating "current()/match/topmost" (from file "topology-policy-qos.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control-OUT']
+Result: empty node
+Evaluating "current()/match/qos-group" (from file "topology-policy-qos.xml", line 16)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control-OUT']/match[match-type='qos-group']/qos-group[.='4'], it evaluates to []
+Evaluating "current()" (from file "topology-policy-qos.xml", line 17)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control-OUT']/match[match-type='qos-group']/qos-group[.='4']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='Network-Control-OUT']/match[match-type='qos-group']/qos-group[.='4'], it evaluates to "4"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='Network-Control-OUT']/match/qos-group[.='4'] (from file "topology-policy-qos.xml", line 17)
+Evaluating "current()/name" (from file "topology-policy-qos.xml", line 7)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='class-default']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='class-default'], it evaluates to "class-default"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='class-default'] (from file "topology-policy-qos.xml", line 7)
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='class-default']/prematch (from file "topology-policy-qos.xml", line 8)
+Fetching literal "match-any" (from file "topology-policy-qos.xml", line 8)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:class-map[name='class-default']/prematch to "match-any"
+Evaluating "current()/match/topmost" (from file "topology-policy-qos.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='class-default']
+Result: empty node
+Evaluating "current()/match/qos-group" (from file "topology-policy-qos.xml", line 16)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/class-map[name='class-default']
+Result: empty node
+Evaluating "/network-service[$SERVICE-NAME]/topology/policies/qos/policy-map" (from file "topology-policy-qos.xml", line 20)
+Context node: /network
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT'], it evaluates to []
+Evaluating "current()/name" (from file "topology-policy-qos.xml", line 21)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT'], it evaluates to "VISA-QOS-INPUT"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-INPUT'] (from file "topology-policy-qos.xml", line 21)
+Evaluating "current()/class" (from file "topology-policy-qos.xml", line 22)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='AF21-IN'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='AF31-IN'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='Network-Control'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='class-default'], it evaluates to []
+Evaluating when-expression "boolean(current()/class-type='default')" (from file "topology-policy-qos.xml", line 42)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='AF21-IN']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='reference')" (from file "topology-policy-qos.xml", line 23)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='AF21-IN']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='default')" (from file "topology-policy-qos.xml", line 42)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='AF31-IN']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='reference')" (from file "topology-policy-qos.xml", line 23)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='AF31-IN']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='default')" (from file "topology-policy-qos.xml", line 42)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='Network-Control']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='reference')" (from file "topology-policy-qos.xml", line 23)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='Network-Control']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='default')" (from file "topology-policy-qos.xml", line 42)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='class-default']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='reference')" (from file "topology-policy-qos.xml", line 23)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-INPUT']/class[class-ref-name='class-default']
+Result: false - skipping siblings
+Evaluating "current()/name" (from file "topology-policy-qos.xml", line 21)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT'], it evaluates to "VISA-QOS-OUT"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT'] (from file "topology-policy-qos.xml", line 21)
+Evaluating "current()/class" (from file "topology-policy-qos.xml", line 22)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF21-OUT'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF31-OUT'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT'], it evaluates to []
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='class-default'], it evaluates to []
+Evaluating when-expression "boolean(current()/class-type='default')" (from file "topology-policy-qos.xml", line 42)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF21-OUT']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='reference')" (from file "topology-policy-qos.xml", line 23)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF21-OUT']
+Result: true - continuing
+Evaluating "current()/class-ref-name" (from file "topology-policy-qos.xml", line 24)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF21-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF21-OUT'], it evaluates to "AF21-OUT"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF21-OUT'] (from file "topology-policy-qos.xml", line 24)
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF21-OUT']/set/qos-group (from file "topology-policy-qos.xml", line 26)
+Evaluating "current()/qos-group" (from file "topology-policy-qos.xml", line 26)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF21-OUT']
+Result: empty node
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF21-OUT']/bandwidth/percent (from file "topology-policy-qos.xml", line 29)
+Evaluating "current()/bandwidth-percent" (from file "topology-policy-qos.xml", line 29)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF21-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF21-OUT'], it evaluates to "20"
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF21-OUT']/bandwidth/percent to "20"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF21-OUT']/police-rate-unit/police/rate/percent (from file "topology-policy-qos.xml", line 34)
+Evaluating "current()/police-rate-percent" (from file "topology-policy-qos.xml", line 34)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF21-OUT']
+Result: empty node
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF21-OUT']/priority/level (from file "topology-policy-qos.xml", line 39)
+Evaluating "current()/priority-level" (from file "topology-policy-qos.xml", line 39)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF21-OUT']
+Result: empty node
+Evaluating when-expression "boolean(current()/class-type='default')" (from file "topology-policy-qos.xml", line 42)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF31-OUT']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='reference')" (from file "topology-policy-qos.xml", line 23)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF31-OUT']
+Result: true - continuing
+Evaluating "current()/class-ref-name" (from file "topology-policy-qos.xml", line 24)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF31-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF31-OUT'], it evaluates to "AF31-OUT"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF31-OUT'] (from file "topology-policy-qos.xml", line 24)
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF31-OUT']/set/qos-group (from file "topology-policy-qos.xml", line 26)
+Evaluating "current()/qos-group" (from file "topology-policy-qos.xml", line 26)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF31-OUT']
+Result: empty node
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF31-OUT']/bandwidth/percent (from file "topology-policy-qos.xml", line 29)
+Evaluating "current()/bandwidth-percent" (from file "topology-policy-qos.xml", line 29)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF31-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF31-OUT'], it evaluates to "60"
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF31-OUT']/bandwidth/percent to "60"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF31-OUT']/police-rate-unit/police/rate/percent (from file "topology-policy-qos.xml", line 34)
+Evaluating "current()/police-rate-percent" (from file "topology-policy-qos.xml", line 34)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF31-OUT']
+Result: empty node
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='AF31-OUT']/priority/level (from file "topology-policy-qos.xml", line 39)
+Evaluating "current()/priority-level" (from file "topology-policy-qos.xml", line 39)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='AF31-OUT']
+Result: empty node
+Evaluating when-expression "boolean(current()/class-type='default')" (from file "topology-policy-qos.xml", line 42)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='reference')" (from file "topology-policy-qos.xml", line 23)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT']
+Result: true - continuing
+Evaluating "current()/class-ref-name" (from file "topology-policy-qos.xml", line 24)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT'], it evaluates to "Network-Control-OUT"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='Network-Control-OUT'] (from file "topology-policy-qos.xml", line 24)
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='Network-Control-OUT']/set/qos-group (from file "topology-policy-qos.xml", line 26)
+Evaluating "current()/qos-group" (from file "topology-policy-qos.xml", line 26)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT']
+Result: empty node
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='Network-Control-OUT']/bandwidth/percent (from file "topology-policy-qos.xml", line 29)
+Evaluating "current()/bandwidth-percent" (from file "topology-policy-qos.xml", line 29)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT']
+Result: empty node
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='Network-Control-OUT']/police-rate-unit/police/rate/percent (from file "topology-policy-qos.xml", line 34)
+Evaluating "current()/police-rate-percent" (from file "topology-policy-qos.xml", line 34)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT'], it evaluates to "5"
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='Network-Control-OUT']/police-rate-unit/police/rate/percent to "5"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='Network-Control-OUT']/priority/level (from file "topology-policy-qos.xml", line 39)
+Evaluating "current()/priority-level" (from file "topology-policy-qos.xml", line 39)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT']
+Result:
+For /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='Network-Control-OUT'], it evaluates to "1"
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:policy-map[name='VISA-QOS-OUT']/class/class-ref[map='Network-Control-OUT']/priority/level to "1"
+Evaluating when-expression "boolean(current()/class-type='default')" (from file "topology-policy-qos.xml", line 42)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='class-default']
+Result: false - skipping siblings
+Evaluating when-expression "boolean(current()/class-type='reference')" (from file "topology-policy-qos.xml", line 23)
+Context node: /network/network-service[name='Test']/tpb:topology/policies/qos-policy:qos[policy-name='backbone-qos']/policy-map[name='VISA-QOS-OUT']/class[class-ref-name='class-default']
+Result: false - skipping siblings
+Evaluating "/network-service[name=$SERVICE-NAME]/topology/connection[type/core-core]/side[device=$DEVICE-TOPOLOGY-NAME]/port[interface-type='HundredGigE']" (from file "topology-policy-qos.xml", line 64)
+Context node: /network
+Result:
+For /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='A']/port[interface-type='HundredGigE'][interface-name='0/0/0/0'], it evaluates to []
+Evaluating "interface-name" (from file "topology-policy-qos.xml", line 65)
+Context node: /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='A']/port[interface-type='HundredGigE'][interface-name='0/0/0/0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='A']/port[interface-type='HundredGigE'][interface-name='0/0/0/0'], it evaluates to "0/0/0/0"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0'] (from file "topology-policy-qos.xml", line 65)
+Evaluating "/network/network-service[name=$SERVICE-NAME]/topology/policies/qos/policy-map" (from file "topology-policy-qos.xml", line 66)
+Context node: /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='A']/port[interface-type='HundredGigE'][interface-name='0/0/0/0']
+Result: empty node
+Evaluating "$DEVICE-NAME" (from file "device-policy-loopback.xml", line 4)
+Context node: /network
+Result: "p1.fra"
+Operation 'merge' on existing node: /devices/device[name='p1.fra'] (from file "device-policy-loopback.xml", line 4)
+Evaluating "/network-service[name=$SERVICE-NAME]/topology/endpoint[topology-name=$DEVICE-TOPOLOGY-NAME]/policies/loopback[policy-name=$POLICY-NAME]" (from file "device-policy-loopback.xml", line 7)
+Context node: /network
+Result:
+For /network/network-service[name='Test']/tpb:topology/endpoint[topology-name='p1.fra']/policies/dpb:loopback[policy-name='loopback-standard'][interface-number='0'], it evaluates to []
+Evaluating "interface-number" (from file "device-policy-loopback.xml", line 8)
+Context node: /network/network-service[name='Test']/tpb:topology/endpoint[topology-name='p1.fra']/policies/dpb:loopback[policy-name='loopback-standard'][interface-number='0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/endpoint[topology-name='p1.fra']/policies/dpb:loopback[policy-name='loopback-standard'][interface-number='0'], it evaluates to "0"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:interface/Loopback[id='0'] (from file "device-policy-loopback.xml", line 8)
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:interface/Loopback[id='0']/description (from file "device-policy-loopback.xml", line 9)
+Evaluating "$DEVICE-NAME" (from file "device-policy-loopback.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/endpoint[topology-name='p1.fra']/policies/dpb:loopback[policy-name='loopback-standard'][interface-number='0']
+Result: "p1.fra"
+Fetching literal " Loopback " (from file "device-policy-loopback.xml", line 9)
+Evaluating "interface-number" (from file "device-policy-loopback.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/endpoint[topology-name='p1.fra']/policies/dpb:loopback[policy-name='loopback-standard'][interface-number='0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/endpoint[topology-name='p1.fra']/policies/dpb:loopback[policy-name='loopback-standard'][interface-number='0'], it evaluates to "0"
+Fetching literal " Interface" (from file "device-policy-loopback.xml", line 9)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:interface/Loopback[id='0']/description to "p1.fra Loopback 0 Interface"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:interface/Loopback[id='0']/ipv4/address/ip (from file "device-policy-loopback.xml", line 12)
+Evaluating "ip-address" (from file "device-policy-loopback.xml", line 12)
+Context node: /network/network-service[name='Test']/tpb:topology/endpoint[topology-name='p1.fra']/policies/dpb:loopback[policy-name='loopback-standard'][interface-number='0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/endpoint[topology-name='p1.fra']/policies/dpb:loopback[policy-name='loopback-standard'][interface-number='0'], it evaluates to "1.0.2.6"
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:interface/Loopback[id='0']/ipv4/address/ip to "1.0.2.6"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:interface/Loopback[id='0']/ipv4/address/mask (from file "device-policy-loopback.xml", line 13)
+Fetching literal "255.255.255.255" (from file "device-policy-loopback.xml", line 13)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:interface/Loopback[id='0']/ipv4/address/mask to "255.255.255.255"
+Evaluating "$DEVICE-NAME" (from file "device-policy-hostname.xml", line 4)
+Context node: /network
+Result: "p1.fra"
+Operation 'merge' on existing node: /devices/device[name='p1.fra'] (from file "device-policy-hostname.xml", line 4)
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:hostname (from file "device-policy-hostname.xml", line 6)
+Evaluating "$DEVICE-NAME" (from file "device-policy-hostname.xml", line 6)
+Context node: /network
+Result: "p1.fra"
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:hostname to "p1.fra"
+Evaluating "$DEVICE-NAME" (from file "device-policy-loopback.xml", line 4)
+Context node: /network
+Result: "p1.lon"
+Operation 'merge' on existing node: /devices/device[name='p1.lon'] (from file "device-policy-loopback.xml", line 4)
+Evaluating "/network-service[name=$SERVICE-NAME]/topology/endpoint[topology-name=$DEVICE-TOPOLOGY-NAME]/policies/loopback[policy-name=$POLICY-NAME]" (from file "device-policy-loopback.xml", line 7)
+Context node: /network
+Result:
+For /network/network-service[name='Test']/tpb:topology/endpoint[topology-name='p1.lon']/policies/dpb:loopback[policy-name='loopback-standard'][interface-number='0'], it evaluates to []
+Evaluating "interface-number" (from file "device-policy-loopback.xml", line 8)
+Context node: /network/network-service[name='Test']/tpb:topology/endpoint[topology-name='p1.lon']/policies/dpb:loopback[policy-name='loopback-standard'][interface-number='0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/endpoint[topology-name='p1.lon']/policies/dpb:loopback[policy-name='loopback-standard'][interface-number='0'], it evaluates to "0"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:interface/Loopback[id='0'] (from file "device-policy-loopback.xml", line 8)
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:interface/Loopback[id='0']/description (from file "device-policy-loopback.xml", line 9)
+Evaluating "$DEVICE-NAME" (from file "device-policy-loopback.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/endpoint[topology-name='p1.lon']/policies/dpb:loopback[policy-name='loopback-standard'][interface-number='0']
+Result: "p1.lon"
+Fetching literal " Loopback " (from file "device-policy-loopback.xml", line 9)
+Evaluating "interface-number" (from file "device-policy-loopback.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/endpoint[topology-name='p1.lon']/policies/dpb:loopback[policy-name='loopback-standard'][interface-number='0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/endpoint[topology-name='p1.lon']/policies/dpb:loopback[policy-name='loopback-standard'][interface-number='0'], it evaluates to "0"
+Fetching literal " Interface" (from file "device-policy-loopback.xml", line 9)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:interface/Loopback[id='0']/description to "p1.lon Loopback 0 Interface"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:interface/Loopback[id='0']/ipv4/address/ip (from file "device-policy-loopback.xml", line 12)
+Evaluating "ip-address" (from file "device-policy-loopback.xml", line 12)
+Context node: /network/network-service[name='Test']/tpb:topology/endpoint[topology-name='p1.lon']/policies/dpb:loopback[policy-name='loopback-standard'][interface-number='0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/endpoint[topology-name='p1.lon']/policies/dpb:loopback[policy-name='loopback-standard'][interface-number='0'], it evaluates to "1.1.2.5"
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:interface/Loopback[id='0']/ipv4/address/ip to "1.1.2.5"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:interface/Loopback[id='0']/ipv4/address/mask (from file "device-policy-loopback.xml", line 13)
+Fetching literal "255.255.255.255" (from file "device-policy-loopback.xml", line 13)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:interface/Loopback[id='0']/ipv4/address/mask to "255.255.255.255"
+Evaluating "$DEVICE-NAME" (from file "device-policy-hostname.xml", line 4)
+Context node: /network
+Result: "p1.lon"
+Operation 'merge' on existing node: /devices/device[name='p1.lon'] (from file "device-policy-hostname.xml", line 4)
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:hostname (from file "device-policy-hostname.xml", line 6)
+Evaluating "$DEVICE-NAME" (from file "device-policy-hostname.xml", line 6)
+Context node: /network
+Result: "p1.lon"
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:hostname to "p1.lon"
+Evaluating "$DEVICE-NAME" (from file "connection-policy-core-core.xml", line 4)
+Context node: /network
+Result: "p1.lon"
+Operation 'merge' on existing node: /devices/device[name='p1.lon'] (from file "connection-policy-core-core.xml", line 4)
+Evaluating "network-service[name=$SERVICE-NAME]/topology/connection[connection-name=$CONNECTION-NAME]/side[device=$DEVICE-TOPOLOGY-NAME]/port[interface-type='HundredGigE']" (from file "connection-policy-core-core.xml", line 7)
+Context node: /network
+Result:
+For /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='A']/port[interface-type='HundredGigE'][interface-name='0/0/0/0'], it evaluates to []
+Evaluating "current()/interface-name" (from file "connection-policy-core-core.xml", line 8)
+Context node: /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='A']/port[interface-type='HundredGigE'][interface-name='0/0/0/0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='A']/port[interface-type='HundredGigE'][interface-name='0/0/0/0'], it evaluates to "0/0/0/0"
+Operation 'merge' on existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0'] (from file "connection-policy-core-core.xml", line 8)
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0']/description (from file "connection-policy-core-core.xml", line 9)
+Evaluating "current()/../../type//policy-name" (from file "connection-policy-core-core.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='A']/port[interface-type='HundredGigE'][interface-name='0/0/0/0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:type/core-core, it evaluates to "core-to-core"
+Fetching literal " connection to " (from file "connection-policy-core-core.xml", line 9)
+Evaluating "current()/../../side[device!=$DEVICE-TOPOLOGY-NAME]/device" (from file "connection-policy-core-core.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='A']/port[interface-type='HundredGigE'][interface-name='0/0/0/0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='B'], it evaluates to "p1.fra"
+Fetching literal " " (from file "connection-policy-core-core.xml", line 9)
+Evaluating "current()/../../side[device!=$DEVICE-TOPOLOGY-NAME]/port/interface-type" (from file "connection-policy-core-core.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='A']/port[interface-type='HundredGigE'][interface-name='0/0/0/0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='B']/port[interface-type='HundredGigE'][interface-name='0/0/0/0'], it evaluates to "HundredGigE"
+Evaluating "current()/../../side[device!=$DEVICE-TOPOLOGY-NAME]/port/interface-name" (from file "connection-policy-core-core.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='A']/port[interface-type='HundredGigE'][interface-name='0/0/0/0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='B']/port[interface-type='HundredGigE'][interface-name='0/0/0/0'], it evaluates to "0/0/0/0"
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0']/description to "core-to-core connection to p1.fra HundredGigE0/0/0/0"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0']/mtu (from file "connection-policy-core-core.xml", line 10)
+Fetching literal "9192" (from file "connection-policy-core-core.xml", line 10)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0']/mtu to "9192"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0']/ipv4/address/ip (from file "connection-policy-core-core.xml", line 21)
+Evaluating "current()/ip-address" (from file "connection-policy-core-core.xml", line 21)
+Context node: /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='A']/port[interface-type='HundredGigE'][interface-name='0/0/0/0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='A']/port[interface-type='HundredGigE'][interface-name='0/0/0/0'], it evaluates to "10.1.1.34"
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0']/ipv4/address/ip to "10.1.1.34"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0']/ipv4/address/mask (from file "connection-policy-core-core.xml", line 22)
+Evaluating "current()/ip-mask" (from file "connection-policy-core-core.xml", line 22)
+Context node: /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='A']/port[interface-type='HundredGigE'][interface-name='0/0/0/0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='A']/port[interface-type='HundredGigE'][interface-name='0/0/0/0'], it evaluates to "255.255.255.252"
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0']/ipv4/address/mask to "255.255.255.252"
+Operation 'merge' on non-existing node: /devices/device[name='p1.lon']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0']/load-interval (from file "connection-policy-core-core.xml", line 25)
+Fetching literal "30" (from file "connection-policy-core-core.xml", line 25)
+Setting /devices/device[name='p1.lon']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0']/load-interval to "30"
+Evaluating "$DEVICE-NAME" (from file "connection-policy-core-core.xml", line 4)
+Context node: /network
+Result: "p1.fra"
+Operation 'merge' on existing node: /devices/device[name='p1.fra'] (from file "connection-policy-core-core.xml", line 4)
+Evaluating "network-service[name=$SERVICE-NAME]/topology/connection[connection-name=$CONNECTION-NAME]/side[device=$DEVICE-TOPOLOGY-NAME]/port[interface-type='HundredGigE']" (from file "connection-policy-core-core.xml", line 7)
+Context node: /network
+Result:
+For /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='B']/port[interface-type='HundredGigE'][interface-name='0/0/0/0'], it evaluates to []
+Evaluating "current()/interface-name" (from file "connection-policy-core-core.xml", line 8)
+Context node: /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='B']/port[interface-type='HundredGigE'][interface-name='0/0/0/0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='B']/port[interface-type='HundredGigE'][interface-name='0/0/0/0'], it evaluates to "0/0/0/0"
+Operation 'merge' on existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0'] (from file "connection-policy-core-core.xml", line 8)
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0']/description (from file "connection-policy-core-core.xml", line 9)
+Evaluating "current()/../../type//policy-name" (from file "connection-policy-core-core.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='B']/port[interface-type='HundredGigE'][interface-name='0/0/0/0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:type/core-core, it evaluates to "core-to-core"
+Fetching literal " connection to " (from file "connection-policy-core-core.xml", line 9)
+Evaluating "current()/../../side[device!=$DEVICE-TOPOLOGY-NAME]/device" (from file "connection-policy-core-core.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='B']/port[interface-type='HundredGigE'][interface-name='0/0/0/0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='A'], it evaluates to "p1.lon"
+Fetching literal " " (from file "connection-policy-core-core.xml", line 9)
+Evaluating "current()/../../side[device!=$DEVICE-TOPOLOGY-NAME]/port/interface-type" (from file "connection-policy-core-core.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='B']/port[interface-type='HundredGigE'][interface-name='0/0/0/0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='A']/port[interface-type='HundredGigE'][interface-name='0/0/0/0'], it evaluates to "HundredGigE"
+Evaluating "current()/../../side[device!=$DEVICE-TOPOLOGY-NAME]/port/interface-name" (from file "connection-policy-core-core.xml", line 9)
+Context node: /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='B']/port[interface-type='HundredGigE'][interface-name='0/0/0/0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='A']/port[interface-type='HundredGigE'][interface-name='0/0/0/0'], it evaluates to "0/0/0/0"
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0']/description to "core-to-core connection to p1.lon HundredGigE0/0/0/0"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0']/mtu (from file "connection-policy-core-core.xml", line 10)
+Fetching literal "9192" (from file "connection-policy-core-core.xml", line 10)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0']/mtu to "9192"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0']/ipv4/address/ip (from file "connection-policy-core-core.xml", line 21)
+Evaluating "current()/ip-address" (from file "connection-policy-core-core.xml", line 21)
+Context node: /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='B']/port[interface-type='HundredGigE'][interface-name='0/0/0/0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='B']/port[interface-type='HundredGigE'][interface-name='0/0/0/0'], it evaluates to "10.1.1.33"
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0']/ipv4/address/ip to "10.1.1.33"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0']/ipv4/address/mask (from file "connection-policy-core-core.xml", line 22)
+Evaluating "current()/ip-mask" (from file "connection-policy-core-core.xml", line 22)
+Context node: /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='B']/port[interface-type='HundredGigE'][interface-name='0/0/0/0']
+Result:
+For /network/network-service[name='Test']/tpb:topology/connection[connection-name='lon.p1-to-fra.p1']/connection-policy-base:side[name='B']/port[interface-type='HundredGigE'][interface-name='0/0/0/0'], it evaluates to "255.255.255.252"
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0']/ipv4/address/mask to "255.255.255.252"
+Operation 'merge' on non-existing node: /devices/device[name='p1.fra']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0']/load-interval (from file "connection-policy-core-core.xml", line 25)
+Fetching literal "30" (from file "connection-policy-core-core.xml", line 25)
+Setting /devices/device[name='p1.fra']/config/cisco-ios-xr:interface/HundredGigE[id='0/0/0/0']/load-interval to "30"
+cli {
+    local-node {
+        data  devices {
+                  device p1.fra {
+                      config {
+             +            cisco-ios-xr:hostname p1.fra;
+             +            cisco-ios-xr:cdp {
+             +            }
+                          cisco-ios-xr:line {
+                              default {
+                                  timeout {
+                                      login {
+             +                            response 30;
+                                      }
+                                  }
+                                  exec-timeout {
+             +                        minutes 0;
+             +                        seconds 0;
+                                  }
+             +                    session-limit 20;
+                                  telnet {
+             +                        transparent;
+                                  }
+                                  session-timeout {
+             +                        minutes 0;
+                                  }
+                              }
+             +                template vty {
+             +                    exec-timeout {
+             +                        minutes 0;
+             +                        seconds 0;
+             +                    }
+             +                }
+                          }
+             +            cisco-ios-xr:class-map AF21-IN {
+             +                prematch match-any;
+             +                match {
+             +                    mpls {
+             +                        experimental {
+             +                            topmost 2;
+             +                        }
+             +                    }
+             +                }
+             +            }
+             +            cisco-ios-xr:class-map AF21-OUT {
+             +                prematch match-any;
+             +                match {
+             +                    qos-group 2;
+             +                }
+             +            }
+             +            cisco-ios-xr:class-map AF31-IN {
+             +                prematch match-any;
+             +                match {
+             +                    mpls {
+             +                        experimental {
+             +                            topmost 3;
+             +                        }
+             +                    }
+             +                }
+             +            }
+             +            cisco-ios-xr:class-map AF31-OUT {
+             +                prematch match-any;
+             +                match {
+             +                    qos-group 3;
+             +                }
+             +            }
+             +            cisco-ios-xr:class-map Network-Control {
+             +                prematch match-any;
+             +                match {
+             +                    mpls {
+             +                        experimental {
+             +                            topmost 6 7;
+             +                        }
+             +                    }
+             +                }
+             +            }
+             +            cisco-ios-xr:class-map Network-Control-OUT {
+             +                prematch match-any;
+             +                match {
+             +                    qos-group 4;
+             +                }
+             +            }
+             +            cisco-ios-xr:class-map class-default {
+             +                prematch match-any;
+             +            }
+             +            cisco-ios-xr:policy-map VISA-QOS-INPUT {
+             +            }
+             +            cisco-ios-xr:policy-map VISA-QOS-OUT {
+             +                class {
+             +                    class-ref AF21-OUT {
+             +                        bandwidth {
+             +                            percent 20;
+             +                        }
+             +                    }
+             +                    class-ref AF31-OUT {
+             +                        bandwidth {
+             +                            percent 60;
+             +                        }
+             +                    }
+             +                    class-ref Network-Control-OUT {
+             +                        police {
+             +                            rate {
+             +                                percent 5;
+             +                            }
+             +                        }
+             +                        priority {
+             +                            level 1;
+             +                        }
+             +                    }
+             +                }
+             +            }
+                          cisco-ios-xr:interface {
+             +                Loopback 0 {
+             +                    description "p1.fra Loopback 0 Interface";
+             +                    ipv4 {
+             +                        address {
+             +                            ip 1.0.2.6;
+             +                            mask 255.255.255.255;
+             +                        }
+             +                    }
+             +                }
+             +                HundredGigE 0/0/0/0 {
+             +                    description "core-to-core connection to p1.lon HundredGigE0/0/0/0";
+             +                    mtu 9192;
+             +                    ipv4 {
+             +                        address {
+             +                            ip 10.1.1.33;
+             +                            mask 255.255.255.252;
+             +                        }
+             +                    }
+             +                    load-interval 30;
+             +                }
+                          }
+                          cisco-ios-xr:call-home {
+                              service {
+             +                    active;
+                              }
+                              contact {
+             +                    smart-licensing;
+                              }
+             +                profile CiscoTAC-1 {
+             +                    active;
+             +                    destination {
+             +                        transport-method {
+             +                            http;
+             +                        }
+             +                    }
+             +                }
+                          }
+                      }
+                  }
+                  device p1.lon {
+                      config {
+             +            cisco-ios-xr:hostname p1.lon;
+             +            cisco-ios-xr:cdp {
+             +            }
+                          cisco-ios-xr:line {
+                              default {
+                                  timeout {
+                                      login {
+             +                            response 30;
+                                      }
+                                  }
+                                  exec-timeout {
+             +                        minutes 0;
+             +                        seconds 0;
+                                  }
+             +                    session-limit 20;
+                                  telnet {
+             +                        transparent;
+                                  }
+                                  session-timeout {
+             +                        minutes 0;
+                                  }
+                              }
+             +                template vty {
+             +                    exec-timeout {
+             +                        minutes 0;
+             +                        seconds 0;
+             +                    }
+             +                }
+                          }
+             +            cisco-ios-xr:class-map AF21-IN {
+             +                prematch match-any;
+             +                match {
+             +                    mpls {
+             +                        experimental {
+             +                            topmost 2;
+             +                        }
+             +                    }
+             +                }
+             +            }
+             +            cisco-ios-xr:class-map AF21-OUT {
+             +                prematch match-any;
+             +                match {
+             +                    qos-group 2;
+             +                }
+             +            }
+             +            cisco-ios-xr:class-map AF31-IN {
+             +                prematch match-any;
+             +                match {
+             +                    mpls {
+             +                        experimental {
+             +                            topmost 3;
+             +                        }
+             +                    }
+             +                }
+             +            }
+             +            cisco-ios-xr:class-map AF31-OUT {
+             +                prematch match-any;
+             +                match {
+             +                    qos-group 3;
+             +                }
+             +            }
+             +            cisco-ios-xr:class-map Network-Control {
+             +                prematch match-any;
+             +                match {
+             +                    mpls {
+             +                        experimental {
+             +                            topmost 6 7;
+             +                        }
+             +                    }
+             +                }
+             +            }
+             +            cisco-ios-xr:class-map Network-Control-OUT {
+             +                prematch match-any;
+             +                match {
+             +                    qos-group 4;
+             +                }
+             +            }
+             +            cisco-ios-xr:class-map class-default {
+             +                prematch match-any;
+             +            }
+             +            cisco-ios-xr:policy-map VISA-QOS-INPUT {
+             +            }
+             +            cisco-ios-xr:policy-map VISA-QOS-OUT {
+             +                class {
+             +                    class-ref AF21-OUT {
+             +                        bandwidth {
+             +                            percent 20;
+             +                        }
+             +                    }
+             +                    class-ref AF31-OUT {
+             +                        bandwidth {
+             +                            percent 60;
+             +                        }
+             +                    }
+             +                    class-ref Network-Control-OUT {
+             +                        police {
+             +                            rate {
+             +                                percent 5;
+             +                            }
+             +                        }
+             +                        priority {
+             +                            level 1;
+             +                        }
+             +                    }
+             +                }
+             +            }
+                          cisco-ios-xr:interface {
+             +                Loopback 0 {
+             +                    description "p1.lon Loopback 0 Interface";
+             +                    ipv4 {
+             +                        address {
+             +                            ip 1.1.2.5;
+             +                            mask 255.255.255.255;
+             +                        }
+             +                    }
+             +                }
+             +                HundredGigE 0/0/0/0 {
+             +                    description "core-to-core connection to p1.fra HundredGigE0/0/0/0";
+             +                    mtu 9192;
+             +                    ipv4 {
+             +                        address {
+             +                            ip 10.1.1.34;
+             +                            mask 255.255.255.252;
+             +                        }
+             +                    }
+             +                    load-interval 30;
+             +                }
+                          }
+                          cisco-ios-xr:call-home {
+                              service {
+             +                    active;
+                              }
+                              contact {
+             +                    smart-licensing;
+                              }
+             +                profile CiscoTAC-1 {
+             +                    active;
+             +                    destination {
+             +                        transport-method {
+             +                            http;
+             +                        }
+             +                    }
+             +                }
+                          }
+                      }
+                  }
+              }
+              network {
+             +    network-service Test {
+             +        topology {
+             +            policies {
+             +                cdp cdp-across-devices;
+             +                callhome callhome-standard;
+             +                line line-standard;
+             +                qos backbone-qos {
+             +                    class-map AF21-IN {
+             +                        match mpls {
+             +                            topmost [ 2 ];
+             +                        }
+             +                    }
+             +                    class-map AF21-OUT {
+             +                        match qos-group {
+             +                            qos-group [ 2 ];
+             +                        }
+             +                    }
+             +                    class-map AF31-IN {
+             +                        match mpls {
+             +                            topmost [ 3 ];
+             +                        }
+             +                    }
+             +                    class-map AF31-OUT {
+             +                        match qos-group {
+             +                            qos-group [ 3 ];
+             +                        }
+             +                    }
+             +                    class-map Network-Control {
+             +                        match mpls {
+             +                            topmost [ 6 7 ];
+             +                        }
+             +                    }
+             +                    class-map Network-Control-OUT {
+             +                        match qos-group {
+             +                            qos-group [ 4 ];
+             +                        }
+             +                    }
+             +                    class-map class-default;
+             +                    policy-map VISA-QOS-INPUT {
+             +                        direction input;
+             +                        class AF21-IN {
+             +                            qos-group 2;
+             +                        }
+             +                        class AF31-IN {
+             +                            qos-group 1;
+             +                        }
+             +                        class Network-Control {
+             +                            qos-group 4;
+             +                        }
+             +                        class class-default {
+             +                            qos-group 3;
+             +                        }
+             +                    }
+             +                    policy-map VISA-QOS-OUT {
+             +                        direction output;
+             +                        class AF21-OUT {
+             +                            class-type reference;
+             +                            bandwidth-percent 20;
+             +                        }
+             +                        class AF31-OUT {
+             +                            class-type reference;
+             +                            bandwidth-percent 60;
+             +                        }
+             +                        class Network-Control-OUT {
+             +                            class-type reference;
+             +                            police-rate-percent 5;
+             +                            priority-level 1;
+             +                        }
+             +                        class class-default;
+             +                    }
+             +                }
+             +            }
+             +            endpoint p1.fra {
+             +                policies {
+             +                    hostname corporate-hostname {
+             +                        hostname p1.fra;
+             +                    }
+             +                    loopback loopback-standard 0 {
+             +                        ip-address 1.0.2.6;
+             +                    }
+             +                    model ASR9K;
+             +                    role provider-core-router;
+             +                }
+             +            }
+             +            endpoint p1.lon {
+             +                policies {
+             +                    hostname corporate-hostname {
+             +                        hostname p1.lon;
+             +                    }
+             +                    loopback loopback-standard 0 {
+             +                        ip-address 1.1.2.5;
+             +                    }
+             +                    model ASR9K;
+             +                    role provider-core-router;
+             +                }
+             +            }
+             +            connection lon.p1-to-fra.p1 {
+             +                side A {
+             +                    device p1.lon;
+             +                    port HundredGigE 0/0/0/0 {
+             +                        ip-address 10.1.1.34;
+             +                        ip-mask 255.255.255.252;
+             +                    }
+             +                }
+             +                side B {
+             +                    device p1.fra;
+             +                    port HundredGigE 0/0/0/0 {
+             +                        ip-address 10.1.1.33;
+             +                        ip-mask 255.255.255.252;
+             +                    }
+             +                }
+             +                type {
+             +                    core-core {
+             +                        policy-name core-to-core;
+             +                    }
+             +                }
+             +            }
+             +        }
+             +    }
+              }
+    }
+}
